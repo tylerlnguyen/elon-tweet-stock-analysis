@@ -3,7 +3,7 @@ import yaml
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
-# Load the configuration file
+# Load config file
 with open("config.yaml", "r") as file:
     config = yaml.safe_load(file)
 
